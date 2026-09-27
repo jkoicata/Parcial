@@ -1,0 +1,37 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución y paquetes
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Configuración y secretos locales
+.env
+.env.*
+!.env.example
+
+# Modelos generados; conservar un marcador si se necesita versionar la carpeta
+models/*.joblib
+!models/.gitkeep
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
